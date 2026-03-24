@@ -15,7 +15,7 @@ namespace Calculator_inator
             int quotient = num1 / num2;
             int remainder = num1 % num2;
             // Check if num1 is greater than num2 using the modulus operator
-            bool isNum1Greater = num1 % 2 >= 0;
+            bool isNum1Greater = num1 > num2;
             // Display the results
             Console.WriteLine($"Number 1: {num1}");
             Console.WriteLine($"Number 2: {num2}");
